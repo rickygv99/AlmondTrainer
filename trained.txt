@@ -1,0 +1,602 @@
+ask bob to check her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to check his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to measure his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to record his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to send his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to submit his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+ask bob to take his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to check his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to measure his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to record his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to send his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to submit his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+message bob to take his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to check his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to measure his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to record his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to send his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to submit his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+notify bob to take his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to check his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to measure his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to record his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to send his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to submit his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+remind bob to take his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to check his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to measure his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to record his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to send his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to submit his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure 2 times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure 2 times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure 2 times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure 2 times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure twice a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure twice each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure twice every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure twice per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take her blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure 2 times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure once a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure twice daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure two times a day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure two times daily:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure two times each day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure two times every day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }
+tell bob to take his blood pressure two times per day:executor = "bob"^^tt:username : { attimer(time=[$context.time.morning, $context.time.evening]) => @org.thingpedia.cardiology.patient.record(); }

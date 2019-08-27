@@ -1,0 +1,17 @@
+{
+  "name": "almondtrainer",
+  "version": "1.0.0",
+  "author": "Ricky Grannis-Vu",
+  "description": "Automates and makes easy training the Almond virtual assistant",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --harmony_async_iteration app.js",
+    "test": "node test_expansion.js"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "n-readlines": "^1.0.0",
+    "randexp": "^0.5.3",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}
