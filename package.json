@@ -12,6 +12,6 @@
     "fs": "0.0.1-security",
     "n-readlines": "^1.0.0",
     "randexp": "^0.5.3",
-    "selenium-webdriver": "^4.0.0-alpha.4"
+    "selenium-webdriver": "^4.8.2"
   }
 }
